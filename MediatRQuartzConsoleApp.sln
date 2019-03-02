@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatRQuartzConsoleApp", "MediatRQuartzConsoleApp\MediatRQuartzConsoleApp.csproj", "{C51D5398-2DF6-42ED-B0F2-721EE42BC9C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobServer", "MediatRQuartzConsoleApp\JobServer.csproj", "{C51D5398-2DF6-42ED-B0F2-721EE42BC9C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobServer.Jobs", "JobServer.Jobs\JobServer.Jobs.csproj", "{3D0D6197-5031-4A18-9FB1-E0125055E2D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobServer.App", "JobServer.App\JobServer.App.csproj", "{CBF001FD-0ADC-4B23-915F-25E1352FB95A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{C51D5398-2DF6-42ED-B0F2-721EE42BC9C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C51D5398-2DF6-42ED-B0F2-721EE42BC9C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C51D5398-2DF6-42ED-B0F2-721EE42BC9C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D0D6197-5031-4A18-9FB1-E0125055E2D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0D6197-5031-4A18-9FB1-E0125055E2D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0D6197-5031-4A18-9FB1-E0125055E2D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0D6197-5031-4A18-9FB1-E0125055E2D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBF001FD-0ADC-4B23-915F-25E1352FB95A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF001FD-0ADC-4B23-915F-25E1352FB95A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF001FD-0ADC-4B23-915F-25E1352FB95A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF001FD-0ADC-4B23-915F-25E1352FB95A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
