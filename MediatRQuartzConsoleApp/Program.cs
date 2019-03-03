@@ -23,8 +23,7 @@ namespace MediatRQuartzConsoleApp
                 .AddQuartz()
                 .AddTransient<InitializeJobServer>()
                 .AddTransient<MyJob>()
-                .AddTransient<MyCommand>()
-                .AddTransient<MyCommandHandler>()
+                .AddScoped<IRequestHandler<MyCommand, bool>, MyCommandHandler>()
                 .AddMediatR(typeof(MyCommand).GetType().Assembly)
                 .BuildServiceProvider();
 
